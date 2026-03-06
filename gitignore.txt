@@ -1,0 +1,221 @@
+# ===================== 通用系统文件 =====================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+*.tmp
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ===================== 通用开发工具 =====================
+# IDE 配置（VSCode/IntelliJ/WebStorm等）
+.idea/
+.vscode/
+*.swp
+*.swo
+*.iml
+*.ipr
+*.iws
+out/
+build/
+classes/
+.gradle/
+.nb-gradle/
+.factorypath
+.project
+.classpath
+.settings/
+*.launch
+*.tmproj
+*.esproj
+.DS_Store
+.project
+.c9/
+*.launch
+*.sublime-workspace
+*.sublime-project
+.idea_modules/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ===================== 编程语言通用 =====================
+# 编译/打包产物
+*.o
+*.obj
+*.dll
+*.so
+*.dylib
+*.exe
+*.out
+*.app
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.7z
+
+# 日志/缓存
+*.log
+*.log.*
+logs/
+cache/
+temp/
+tmp/
+*.pid
+*.seed
+*.pid.lock
+
+# 测试/覆盖率
+coverage/
+.nyc_output/
+junit/
+*.coverage
+*.lcov
+
+# ===================== 前端专属 =====================
+# 依赖包
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+bower_components/
+
+# 构建产物
+dist/
+build/
+public/build/
+.next/
+.out/
+.gatsby/
+.vuepress/dist/
+nuxt/dist/
+.vite/
+.esbuild/
+
+# 环境变量
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ===================== Java/后端专属 =====================
+# Maven/Gradle
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+gradle-app.setting
+!gradle-wrapper.jar
+.gradletasknamecache
+gradle/wrapper/gradle-wrapper.properties
+
+# 数据库
+*.sql
+*.sqlite
+*.db
+*.db-journal
+
+# ===================== Python专属 =====================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.Python
+venv/
+ENV/
+*.pyd
+*.pyo
+
+# ===================== 移动端专属 =====================
+# Android
+*.apk
+*.ap_
+*.dex
+*.class
+bin/
+gen/
+out/
+release/
+assets/
+res/
+gradle/
+local.properties
+*.iml
+.cxx/
+build/
+*.keystore
+*.jks
+
+# iOS
+build/
+DerivedData/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+Pods/
+Podfile.lock
+*.xcuserstate
+*.xcworkspace/
+!default.xcworkspace
+*.xcodeproj/
+!default.xcodeproj
