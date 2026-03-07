@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="ProjectModuleManager">
-    <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/JavaSE.iml" filepath="$PROJECT_DIR$/.idea/JavaSE.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day01-basic-code/day01-basic-code.iml" filepath="$PROJECT_DIR$/day01-basic-code/day01-basic-code.iml" />
-    </modules>
-  </component>
-</project>
