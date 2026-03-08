@@ -1,4 +1,4 @@
-package Test01;
+package test01;
 
 public class Student {
     private int age;
@@ -16,8 +16,6 @@ public class Student {
         this.name = name;
     }
 
-
-    get and set
     public int getAge() {
         return age;
     }
